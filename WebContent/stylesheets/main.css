@@ -1,0 +1,173 @@
+/*
+ *	Personal Website of Tucker Reed Stewart
+ *	Author: Tucker Reed Stewart
+ *	Version: 1.0
+ */
+@charset "ISO-8859-1";
+
+/*
+ * Color Palette: Blue-ish Grays: #0A0E12
+ *								  #222629
+ *								  #474B4F
+ *								  #6B6E70
+ *				  Greens: 		  #61892F
+ *								  #86C232
+ */
+
+/* Tag rules */
+
+a {
+	color: #6B6E70;
+}
+
+body {
+	color: #FFFFFF;
+	background-color: #222629;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 4em;
+	color: #31892F;
+}
+
+h2 {
+	font-size: 1.65em;
+	color: #86C232;
+	margin: 0;
+	margin-top: 0.5em;
+}
+
+h3 {
+	font-size: 1.25em;
+	margin: 0;
+}
+
+hr {
+	margin-top: 0;
+}
+
+li {
+	font-size: 1.15em;
+}
+
+p {
+	font-size: 1.15em;
+	margin: 0.25em;
+}
+
+/* Header Section */
+
+header {
+	width: 100%;
+	background-color: #0A0E12;
+	border: 1px solid #0A0E12;
+	text-align: center;
+}
+
+/* Footer section */
+
+footer {
+	background-color: #0A0E12;
+	border: 1px solid #0A0E12;
+	padding: 20px;
+	overflow: auto;
+}
+
+footer p {
+	vertical-align: center;
+	margin: 5px;
+}
+
+footer .foot-1 {
+	vertical-align: center;
+	float: left;
+	margin-left: 5%;
+}
+
+footer .foot-2 {
+	vertical-align: center;
+	float: right;
+	margin-right: 5%;
+}
+
+/* Navigation section */
+
+nav {
+	display: inline-block;
+	vertical-align: top;
+	width: 10%;
+	height: 800px;
+	margin: 10px;
+	border: 5px solid #0A0E12;
+	border-radius: 10px;
+	padding: 0.1%;
+}
+
+nav a {
+	display: block;
+	margin: 5%;
+	border-radius: 10px;
+	padding: 8%;
+	color: #86C232;
+	background-color: #474B4F;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #43474B;
+}
+
+nav a:active {
+	transform: translateY(4px);
+}
+
+/* Class rules */
+
+.content {
+	display: inline-block;
+	max-width: 75%;
+	margin: 5%;
+	content-align: center;
+}
+
+.link-icon {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
+
+.resume-body h2{
+	color: #FFFFFF;
+}
+
+.resume-header {
+	text-align: center;
+	clear: right;
+}
+
+.resume-header h2 {
+	font-size: 2.25em;
+}
+
+/* ID rules */
+
+#contact-header {
+	color: #86C232;
+	margin-top: 1.25em;
+	margin-bottom: 0.25em;
+	text-decoration: underline;
+}
+
+#pdf-version {
+	display: inline-block;
+	float: right;
+}
+
+#personal-photo {
+	display: block;
+	width: 240px;
+	height: 360px;
+	margin: auto;
+}
