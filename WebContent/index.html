@@ -25,12 +25,12 @@
 
 		<!-- The body of the Web page. -->
 		<!-- The navigation bar for moving between pages. -->
-		<div id="div-nav-bar"></div>
-		<script>
-			fetch("/includes/navbar.html")
-			    .then(r => r.ok ? r.text() : Promise.reject(r.status))
-			    .then(html => document.getElementById("div-nav-bar").innerHTML = html);
-		</script>
+		<nav>
+			<a href="/">Home Page</a>
+			<a href="/resume.html">Resume</a>
+			<a href="/portfolio.html">Portfolio</a>
+			<a href="/contact_page.html">Contact me</a>
+		</nav>
 
 		<!-- The content section of the page. -->
 		<div class="content">
@@ -48,11 +48,24 @@
 		</div>
 
 		<!-- The footer of the page. Contact and Update information. -->
-		<div id="div-footer"></div>
-		<script>
-			fetch("/includes/footer.html")
-			    .then(r => r.ok ? r.text() : Promise.reject(r.status))
-			    .then(html => document.getElementById("div-footer").innerHTML = html);
-		</script>
+		<footer>
+			<!-- Contact buttons linking to Tucker Stewart's LinkedIn and
+		GitHub pages. -->
+			<div class="foot-1">
+				<a href="https://www.linkedin.com/in/TuckerStewart98">
+					<img alt="LinkedIn Logo" class="link-icon" src="./images/LinkedIn-Logo.png" />
+				</a>
+				<a href="https://github.com/TuckerStewart98">
+					<img alt="GitHub Logo" class="link-icon" src="./images/GitHub-Mark.png" />
+				</a>
+			</div>
+
+			<div class="foot-2">
+				<!-- Tucker Stewart's email address. -->
+				<p>E-mail: trstew98@gmail.com</p>
+				<!-- The day this page was last updated. -->
+				<p>Last Updated: 11 October 2025</p>
+			</div>
+		</footer>
 	</body>
 </html>
