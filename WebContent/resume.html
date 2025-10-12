@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!--
+	Personal Website of Tucker Reed Stewart
+	Author: Tucker Reed Stewart
+	Version: 1.0
+-->
+
+<!-- Provides most recent copy of resume in the form of an HTML webpage and a downloadable PDF. -->
+<html lang="en">
+	<head>
+		<title>Resume</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+		<meta charset="utf-8" />
+		<meta name="author" content="Tucker Reed Stewart" />
+	</head>
+
+	<body>
+		<!-- The header of the Web page. -->
+		<header>
+			<h1>Tucker Reed Stewart</h1>
+		</header>
+
+		<!-- The body of the Web page. -->
+		<!-- The navigation bar for moving between pages. -->
+		<nav>
+			<a href="/">Home Page</a>
+			<a href="/resume.html">Resume</a>
+			<a href="/portfolio.html">Portfolio</a>
+			<a href="/contact_page.html">Contact me</a>
+		</nav>
+
+		<!-- The content section of the page. -->
+		<div class="content">
+			<!-- A link to download a PDF version of Tucker Stewart's resume. -->
+			<a id="pdf-version" href="documents/trstew_resume.pdf" download="trstew_resume">
+				<img alt="[]" src="images/pdf_download.png" width="30px" height="30px" />PDF Version
+			</a>
+
+			<!-- The header of the resume. -->
+			<div class="resume-header">
+				<h2>Tucker R. Stewart</h2>
+				<h3>AI Researcher | Data Scientist</h3>
+				<p>Kenmore, WA | 360-791-7340 | trstew98@gmail.com</p>
+				<p>
+					<a href="https://students.washington.edu/trstew">students.washington.edu/trstew</a>
+					|
+					<a href="https://www.linkedin.com/in/tuckerstewart98">linkedin.com/in/tuckerstewart98</a>
+					|
+					<a href="https://www.github.com/TuckerStewart98">github.com/TuckerStewart98</a>
+				</p>
+
+				<hr />
+			</div>
+
+			<!-- The body of the resume. -->
+			<div class="resume-body">
+				<!-- Educational background. -->
+				<h2>EDUCATION</h2>
+				<hr />
+				<p>
+					<b>Doctor of Philosophy</b> in Computer Science and Systems &mdash; Anticipated 2026<br />
+					University of Washington Tacoma, GPA: 4.0
+				</p>
+				<p>
+					<b>Master of Science</b> in Computer Science and Systems (Data Science) &mdash; 2022<br />
+					University of Washington Tacoma, GPA: 4.0
+				</p>
+				<p>
+					<b>Bachelor of Science</b> in Computer Science and Systems with Honors, Minor in Mathematics &mdash;
+					2020<br />
+					University of Washington Tacoma, GPA: 3.99 (Summa Cum Laude)
+				</p>
+
+
+
+				<!-- List relevant skills -->
+				<h2>SKILLS</h2>
+				<hr />
+
+				<p style="padding-left: 2em; text-indent: -2em;">
+					<b>Programming Languages:</b> (Proficient) Python, Java, SQL, C, HTML, CSS, (Exposed) Bash, R, C++,
+					C#, JavaScript
+				</p>
+				<p style="padding-left: 2em; text-indent: -2em;">
+					<b>Frameworks and Tools:</b> (Proficient) PyTorch/Lightning, TensorFlow, HuggingFace, Optuna,
+					MLflow, PySpark, Anaconda, Jupyter, Maven, Eclipse, PyCharm, (Exposed) Microsoft Azure, Google
+					Cloud Platform, Kubernetes, Ray, Poetry, Android Studio, Unity
+				</p>
+
+
+
+				<!-- Work experience. -->
+				<h2>WORK EXPERIENCE</h2>
+				<hr />
+
+				<!-- CueZen -->
+				<h3>
+					<b>CueZen: Data Science Consultant (Contract)</b> January 2023 – August 2025
+				</h3>
+				<ul>
+					<li>
+						Researched and prototyped sequential behavior-mining approaches using sequential pattern mining,
+						process mining, and generative modeling with libraries such as SPMF and PM4Py.
+					</li>
+					<li>
+						Implemented and evaluated state-of-the-art synthetic data generation methods, including
+						RNN-based GANs for simulating human behavioral data.
+					</li>
+					<li>
+						Built an end-to-end ML pipeline for modeling user behavior, including the transformer-based
+						model, hyperparameter tuning (Optuna), experiment tracking (MLflow), and web API deployment.
+					</li>
+				</ul>
+
+				<!-- Advata -->
+				<h3>
+					<b>Advata (f.k.a. KenSci): Research Assistant</b> February 2021 – October 2022
+				</h3>
+				<ul>
+					<li>
+						Designed and evaluated deep learning models for health-related outcomes, utilizing
+						representation learning on open-source healthcare datasets.
+					</li>
+					<li>
+						Developed end-to-end ML pipelines in Azure ML, featuring experiment tracking (MLflow), automated
+						report generation, and reproducible workflows.
+					</li>
+					<li>Conducted a comprehensive survey of deep sequential models for healthcare outcomes.</li>
+				</ul>
+
+				<!-- ServiceNow -->
+				<h3>
+					<b>ServiceNow: Software Development Engineering Intern</b> June 2019 - September 2019; June 2020 -
+					September 2020
+				</h3>
+				<ul>
+					<li>
+						Developed new features for the Configuration Management Database’s (CMDB) Identification and
+						Reconciliation Engine (IRE) in Java, SQL, and JavaScript.
+					</li>
+					<li>
+						Created an automated and easily maintainable test suite for testing new integrations for the
+						CMDB’s ‘Extract, Transform, and Load’ (ETL) system.
+					</li>
+					<li>
+						Collaborated in a corporate environment, contributed to design discussions, and used Git for
+						version control of the code base.
+					</li>
+				</ul>
+
+
+
+				<!-- Projects -->
+				<h2>PROJECTS</h2>
+				<hr />
+
+				<!-- Graduate Research Project -->
+				<h3>Prediction of Rare Events in Sequential Modeling: Sepsis Onset</h3>
+				<ul>
+					<li>
+						Collaborated with the University of Washington Medicine to predict sepsis onset in traumatically
+						ill ICU patients and develop a diagnostic tool for monitoring patients for sepsis.
+					</li>
+					<li>
+						Proposed and implemented novel representation learning techniques to enhance deep sequential
+						models in predicting rare events, improving model generalization and sensitivity.
+					</li>
+					<li>
+						Developed an extensible framework for executing ML experiments that parses parameters, partially
+						automates experiment tracking with MLFlow, and ensures reproducibility.
+					</li>
+				</ul>
+
+				<!-- Undergraduate Research Project -->
+				<h3>Peak Volume Prediction in Network Traffic Forecasting</h3>
+				<ul>
+					<li>
+						Collaborated with Infoblox to forecast peak network traffic values, enhancing predictive
+						accuracy for critical usage periods.
+					</li>
+					<li>
+						Researched and applied time-series decomposition techniques to improve peak-value forecasting.
+					</li>
+				</ul>
+
+
+
+				<!-- List of Publications -->
+				<h2>PUBLICATIONS</h2>
+				<hr />
+				<ul>
+					<li>
+						<b>T. Stewart</b>, K. Stern, G. O’Keefe, A. Teredesai, and J. Hu, “NPRL: Nightly Profile
+						Representation Learning for Early Sepsis Onset Prediction in ICU Trauma Patients,” in <i>2023
+						IEEE International Conference on Big Data (BigData)</i>, 2023, pp. 1843–1852.
+					</li>
+					<li>
+						<b>T. Stewart</b>, B. Yu, A. Nascimento, and J. Hu, “Enhancing peak network traffic prediction
+						via time-series decomposition,” <i>arXiv preprint arXiv:2303.13529</i>, 2023.
+					</li>
+				</ul>
+
+
+
+				<!-- Honors and Awards -->
+				<h2>HONORS AND AWARDS</h2>
+				<hr />
+				<ul>
+					<li>Carwein-Andrews Distinguished Fellow (Spring 2024; Winter 2025-Spring 2025)</li>
+					<li>Mary Gates Research Scholar (2019-2020)</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- The footer of the page. Contact and Update information. -->
+		<footer>
+			<!-- Contact buttons linking to Tucker Stewart's LinkedIn and
+		GitHub pages. -->
+			<div class="foot-1">
+				<a href="https://www.linkedin.com/in/TuckerStewart98">
+					<img alt="LinkedIn Logo" class="link-icon" src="images/LinkedIn-Logo.png" />
+				</a>
+				<a href="https://github.com/TuckerStewart98">
+					<img alt="GitHub Logo" class="link-icon" src="images/GitHub-Mark.png" />
+				</a>
+			</div>
+
+			<div class="foot-2">
+				<!-- Tucker Stewart's email address. -->
+				<p>E-mail: trstew98@gmail.com</p>
+				<!-- The day this page was last updated. -->
+				<p>Last Updated: 11 October 2025</p>
+			</div>
+		</footer>
+	</body>
+</html>

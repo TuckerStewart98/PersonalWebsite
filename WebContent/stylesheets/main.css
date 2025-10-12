@@ -43,6 +43,11 @@ h3 {
 	margin: 0;
 }
 
+h4 {
+	font-size: 1.15em;
+	margin: 0;
+}
+
 hr {
 	margin-top: 0;
 }
@@ -131,6 +136,11 @@ nav a:active {
 	content-align: center;
 }
 
+.entry {
+  margin-bottom: 0.75em;
+  margin-top: 0.75em;
+}
+
 .link-icon {
 	display: inline-block;
 	width: 50px;
@@ -176,7 +186,7 @@ nav a:active {
 
 #personal-photo {
 	display: block;
-	width: 240px;
+	width: auto;
 	height: 360px;
 	margin: auto;
 }
